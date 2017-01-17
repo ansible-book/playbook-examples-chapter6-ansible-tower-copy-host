@@ -1,0 +1,6 @@
+---
+- hosts: all
+  remote_user: root
+  tasks:
+  - name: Copy the /etc/hosts
+    copy: src=/etc/hosts dest=/etc/hosts
